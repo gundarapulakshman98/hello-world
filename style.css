@@ -1,0 +1,118 @@
+
+/*------------Nav bar--------------*/
+#nav-bar {
+    position: sticky;
+    top: 0 ;
+    z-index: 010;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    float: right;
+    text-align: left;
+}
+
+.navbar-nav li a:hover {
+    color: #007bef!important;
+}
+
+#slider{
+    width: 100%;
+}
+
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h5{
+    font-size: 50px;
+}
+
+#about{
+    padding: 50px 0 ;
+}
+
+#about .btn {
+    margin: 30px 0 20px 0 ;
+}
+
+.about-content{
+    padding-top: 20px;
+
+}
+
+.skills-bar {
+    margin: 30px 0 20px 0 ;
+
+}
+
+.skills-bar p{
+    margin: 20px 0 8px 0 ;
+
+}
+
+.progress-bar{
+    border-radius: 8px;
+}
+
+.progress{
+    border-radius: 8px!important;
+
+}
+
+
+
+#services{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(DSC_8210.jpg);
+    background-size: cover;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding: 50px 0 ;
+}
+
+#services h1{
+    text-align: center;
+    color: #efefef !important;
+}
+
+#services h1::after {
+    content:'';
+    background: #efefef;
+    display: block;
+    height: 2px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+
+.services {
+    margin-top: 40px;
+}
+
+.icon {
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+
+}
+
+#services p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+
+}
+
+.services .col-md-3:hover{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
+}
